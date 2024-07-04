@@ -23,7 +23,7 @@ var contentToAdd = `
         <button>Click me!</button>
     </div>`;
 
-var repetitions = 3; // Number of times you want to display the content within each container
+var repetitions = 4; // Number of times you want to display the content within each container
 
 collection.forEach(function(element) {
     let combinedHTML = ''; // Initialize an empty string to concatenate HTML content
