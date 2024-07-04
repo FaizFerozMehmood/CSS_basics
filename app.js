@@ -47,38 +47,38 @@
 // script.js
 
 // Data for cards (example data, you can replace this with your own)
-const cardData = [
-    { title: 'Card 1', description: 'This is the first card.' },
-    { title: 'Card 2', description: 'This is the second card.' },
-    { title: 'Card 3', description: 'This is the third card.' },
-    // Add more card data as needed
-];
+// const cardData = [
+//     { title: 'Card 1', description: 'This is the first card.' },
+//     { title: 'Card 2', description: 'This is the second card.' },
+//     { title: 'Card 3', description: 'This is the third card.' },
+//     // Add more card data as needed
+// ];
 
-// Function to create a card element
-function createCard(title, description) {
-    const card = document.createElement('div');
-    card.classList.add('card');
+// // Function to create a card element
+// function createCard(title, description) {
+//     const card = document.createElement('div');
+//     card.classList.add('card');
 
-    const cardTitle = document.createElement('h2');
-    cardTitle.textContent = title;
+//     const cardTitle = document.createElement('h2');
+//     cardTitle.textContent = title;
 
-    const cardDescription = document.createElement('p');
-    cardDescription.textContent = description;
+//     const cardDescription = document.createElement('p');
+//     cardDescription.textContent = description;
 
-    card.appendChild(cardTitle);
-    card.appendChild(cardDescription);
+//     card.appendChild(cardTitle);
+//     card.appendChild(cardDescription);
 
-    return card;
-}
+//     return card;
+// }
 
-// Get the container to hold the cards
-const cardContainer = document.getElementById('card-container');
+// // Get the container to hold the cards
+// const cardContainer = document.getElementById('card-container');
 
-// Loop through the card data and create cards
-cardData.forEach(data => {
-    const card = createCard(data.title, data.description);
-    cardContainer.appendChild(card);
-});
+// // Loop through the card data and create cards
+// cardData.forEach(data => {
+//     const card = createCard(data.title, data.description);
+//     cardContainer.appendChild(card);
+// });
 
 
 
