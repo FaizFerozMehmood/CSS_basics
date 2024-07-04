@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif,Arial;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    height: 130px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 4px 0px 0px 50px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 50px;
+
+}
+button{
+    background-color: gold;
+    color: black;
+    height: 30px;
+}
