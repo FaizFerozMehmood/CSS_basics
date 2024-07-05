@@ -83,8 +83,8 @@ button{
 
 }
 .inner{
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     background-color: red;
     margin-left: 20px;
     color: white;
@@ -92,4 +92,8 @@ button{
     justify-content: center;
     align-items: center;
  
+}
+.image{
+    width: 200px;
+    height: 400px;
 }
